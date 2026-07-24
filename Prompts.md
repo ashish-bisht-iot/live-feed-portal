@@ -1,4 +1,4 @@
-# Prompts.md — ENG-149204 (Real-Time Communication Portal)
+# Prompts.md — Real-Time Communication Portal
 
 This file documents my AI-assisted debugging sessions during this project.
 
