@@ -2,8 +2,17 @@
 
 A real-time communication portal built with React and native WebSockets — persistent connection, automatic reconnection with exponential backoff, and full edge-case handling for flaky networks.
 
-**Live:** https://live-feed-portal.vercel.app
-**Repo:** https://github.com/ashish-bisht-iot/live-feed-portal
+## Screenshots
+
+**Connected — live message exchange**
+![Connected state](./screenshots/connected.png)
+
+**Reconnect handling**
+![Reconnect banner](./screenshots/disconnected.png)
+
+**Empty state**
+![Empty state](./screenshots/empty-state.png)
+
 
 ## Features
 
@@ -22,14 +31,11 @@ A real-time communication portal built with React and native WebSockets — pers
 
 React 18, native WebSocket API, Vite, plain CSS.
 
-## Local Setup
+**Live:** https://live-feed-portal.vercel.app
 
-```bash
-npm install
-npm run dev
-```
+**Repo:** https://github.com/ashish-bisht-iot/live-feed-portal
+
 
 ## Notes
 
 - Uses the public echo server at `wss://echo.websocket.org` (the current Ably-run endpoint) as the WebSocket backend for this POC — sent messages are echoed straight back.
-- Deployed on Vercel with auto-deploy on push to `main`.
