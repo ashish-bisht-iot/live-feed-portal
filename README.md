@@ -1,19 +1,17 @@
 # Live Feed Portal
-
 A real-time communication portal built with React and native WebSockets — persistent connection, automatic reconnection with exponential backoff, and full edge-case handling for flaky networks.
+##
 
-## Connected — live message exchange
+**Connected — live message exchange**
 ![Connected state](./screenshots/connected.png)
 
-## Reconnect handling
+**Reconnect handling**
 ![Reconnect banner](./screenshots/disconnected.png)
 
-## Empty state
+**Empty state**
 ![Empty state](./screenshots/empty-state.png)
 
-
 ## Features
-
 - Persistent WebSocket connection established on load
 - Auto-reconnect with exponential backoff (1s → 2s → 4s → 8s, capped at 10s) if the connection drops
 - Connection status indicator (Connecting / Connected / Disconnected)
@@ -30,6 +28,5 @@ A real-time communication portal built with React and native WebSockets — pers
 
 **Repo:** https://github.com/ashish-bisht-iot/live-feed-portal
 
-
 ## Notes
-Uses the public echo server at `wss://echo.websocket.org` (the current Ably-run endpoint) as the WebSocket backend for this POC — sent messages are echoed straight back.
+- Uses the public echo server at `wss://echo.websocket.org` (the current Ably-run endpoint) as the WebSocket backend for this POC — sent messages are echoed straight back.
