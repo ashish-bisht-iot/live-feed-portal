@@ -27,9 +27,7 @@ A real-time communication portal built with React and native WebSockets — pers
 - Input sanitized before rendering — no `dangerouslySetInnerHTML` anywhere
 - Simulated analytics hook (`useAnalytics`) logging key user actions to the console
 
-## Tech Stack
-
-React 18, native WebSocket API, Vite, plain CSS.
+##
 
 **Live:** https://live-feed-portal.vercel.app
 
